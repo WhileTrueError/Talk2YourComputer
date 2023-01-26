@@ -5,6 +5,7 @@ The code in this repository gives you opportunity to communicate by talking and 
 
 ```
 pip install -r requirements.txt (note inside the python env you can use pip not pip3)
+
 python talkintocomputer.py
 ```
 
@@ -42,15 +43,20 @@ specifically
 #when I was trying to download the pyaudio
 ```
 sudo apt-get install portaudio19-dev
+
 sudo apt-get install libjack-jackd2-dev portaudio19-dev
+
 sudo apt-get install libportaudio2
 ```
 
 ## Make a virtualenv
 ```
 sudo apt-get install python3-pip
+
 sudo pip3 install virtualenv 
+
 python3.11 -m venv EnvName
+
 source EnvName/bin/activate
 ```
 if you had a problem while building the environment it can be related to python3.11 libraries, 
